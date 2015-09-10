@@ -5,6 +5,9 @@
   "contributors": [
     "John A. De Goes <john@degoes.net> (http://degoes.net)"
   ],
+  "scripts": {
+    "build": "npm install && gulp"
+  },
   "devDependencies": {
     "gulp":             "~3.8.10",
     "gulp-purescript":  "~0.1.2",
